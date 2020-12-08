@@ -1,0 +1,39 @@
+*{
+    -fx-primary : #2A2E37;
+    -fx-secondary : #FFFF8D;
+    -fx-primarytext : #B2B2B2
+}
+
+.root{
+    -fx-background-color: -fx-primary;
+}
+
+.combo-box{
+    -fx-background-color: #2a2e37;
+    -fx-prompt-text-fill: #ffffff;
+    -fx-border-color: #FFFF8D;
+    -fx-border-radius: 10px;
+}
+
+#table5{
+    -fx-border-radius: 200px;
+}
+
+#showTotalLable{
+    -fx-border-color: #FFFF8D;
+}
+
+.button {
+    -fx-text-fill: -fx-primarytext;
+    -fx-background-color: -fx-primary;
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 20px;
+
+}
+
+.text-field{
+    -fx-background-color: -fx-primary;
+    -fx-border-color: -fx-secondary;
+    -fx-text-fill: -fx-primarytext;
+    -jfx-focus-color: -fx-secondary;
+}
